@@ -1,0 +1,29 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "hackernews-node",
+  "main": "index.js",
+  "dependencies": {
+    "@graphql-tools/schema": "^7.1.5",
+    "@prisma/client": "^2.27.0",
+    "apollo-server": "^2.19.0",
+    "apollo-server-express": "^3.0.2",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-subscriptions": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.12",
+    "subscriptions-transport-ws": "^0.9.19"
+  },
+  "devDependencies": {
+    "prisma": "^2.27.0"
+  },
+  "scripts": {
+    "dev": "npx nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
